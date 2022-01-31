@@ -20,7 +20,7 @@ for i = 1:N
     for j = 1:length(Clusters)
 P(i,j) = sum(A(i,Clusters{j}));
     end
-% if k == 2             % If dealing with a graphs which contain isolated
+% if k == 2             % If dealing with graphs which contain isolated
 %     if P(i,j) > 0     % nodes, this section may be uncommented.
 % P(i,j) = 1;
 %     end
